@@ -51,7 +51,7 @@
         <item name="android:windowBackground">@color/background_primary</item>
         <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
         <item name="android:colorPrimary">@color/primary_color</item>
-        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent</item>
         <item name="android:alertDialogTheme">@style/ContactsAlertDialogTheme</item>
         <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
         <item name="list_section_header_height">24dip</item>
@@ -122,8 +122,8 @@
         <item name="colorPrimaryDark">@color/primary_color_dark</item>
         <item name="android:colorPrimary">@color/primary_color</item>
         <item name="colorPrimary">@color/primary_color</item>
-        <item name="android:colorAccent">@color/primary_color</item>
-        <item name="colorAccent">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
         <item name="alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
         <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
@@ -294,7 +294,7 @@
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
-        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent</item>
     </style>
 
     <style name="SelectableItem" parent="@android:style/Theme.Material.Light">
@@ -337,12 +337,12 @@
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
         since the Alert dialog is private. They are identical anyway. -->
     <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
-        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent</item>
     </style>
 
     <style name="ContactsAlertDialogThemeAppCompat" parent="Theme.AppCompat.Light.Dialog.MinWidth">
-        <item name="android:colorAccent">@color/primary_color</item>
-        <item name="colorAccent">@color/primary_color</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
     </style>
 
     <style name="EditKindIconStyle">
